@@ -1,0 +1,19 @@
+{
+    "name": "output/test",
+    "description": "composer",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sinker",
+            "email": "2713497141@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Composer\\": "src/"
+        }
+    }
+}
